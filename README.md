@@ -14,6 +14,8 @@ Once you are on the Remix website, create a new file by clicking on the "+" icon
 
 
 
+
+
 bash
   // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
@@ -34,7 +36,7 @@ pragma solidity ^0.8.0;
 */
 
 contract MyToken {
-  
+
     // public variables here
     string public tokenname = "METACRAFTERS";
     string public tokenabbrv ="MCS";
@@ -51,7 +53,6 @@ contract MyToken {
         if (balances[_add]>=_val){
             totalsupply -= _val;
             balances[_add] -= _val;
-
         }
     }
 }
