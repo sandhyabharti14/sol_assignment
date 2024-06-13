@@ -18,6 +18,7 @@ bash
   // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
+
 /*
        REQUIREMENTS
     1. Your contract will have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
@@ -58,7 +59,10 @@ contract MyToken {
 
 To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.0" (or another compatible version), and then click on the "Compile Assesment.sol" button.
 
+To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.0" (or another compatible version), and then click on the "Compile Assesment.sol" button.
+
 Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "Assesment" contract from the dropdown menu, and then click on the "Deploy" button.MetaMask will prompt you to confirm the transaction. Confirm the transaction to deploy the contract.
+
 In the "Deployed Contracts" section, expand the MyToken contract.
 Under the "mint" function, enter the address to receive tokens and the amount of tokens to mint.Click the "transact" button next to the mint function.Confirm the transaction in MetaMask.
 
@@ -67,10 +71,6 @@ Under the "burn" function, enter the address from which tokens should be burned 
 Under the "balances" function, enter an address to check its token balance.Click the "call" button to retrieve the balance.
 
 Under the totalsupply variable, click the "totalsupply" button to retrieve the total supply of tokens.
-
-
-
-
 
 
 ## Authors
